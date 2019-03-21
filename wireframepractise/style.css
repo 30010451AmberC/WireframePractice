@@ -1,0 +1,112 @@
+.container {
+    display: grid;
+    grid-template: 50px  300px repeat(4, 500px 200px) / 100%;
+    
+}
+
+
+.a {
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: white;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 500px repeat(4, 1fr);
+    grid-column-gap: minmax(20px, 30px);
+    width: auto;  
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover, a:active {
+    background-color: rgb(211, 201, 201);
+  }
+
+.canape {
+    grid-column: 1/2;
+    color:
+}
+
+.home {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.menu {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.contact {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.about {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.b {
+   background-image: url("https://images.unsplash.com/photo-1543339308-43e59d6b73a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+   background-position-x: -210px;
+   background-position-y: -200px; 
+   background-repeat: no-repeat;
+}
+
+.c {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.d {
+    background-color: ;
+}
+
+.e {
+    background-color: ;
+}
+
+.f {
+    background-color: blanchedalmond;
+    
+}
+
+.main-content-container {
+    display: grid;
+    height: 100%;
+    width: 500px;
+    grid-template: 1fr 3fr / 1fr;
+    background-color: blanchedalmond;
+}
+
+.h {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+}
+
+.g {
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+}
+
+.i {
+    background-color: ;
+}
+
+.k {
+    background-color: ; 
+}
